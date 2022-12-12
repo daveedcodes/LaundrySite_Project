@@ -1,0 +1,6 @@
+<i class='fa-solid fa-truck-fast'></i>
+<i class="fa-thin fa-washing-machine"></i>
+<i class="fa-thin fa-cart-shopping"></i>
+<i class="fa-thin fa-clock"></i>
+<i class="fa-solid fa-messages-question"></i>
+<i class="fa-thin fa-stars"></i>

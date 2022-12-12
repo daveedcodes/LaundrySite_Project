@@ -1,0 +1,9 @@
+ /* css file for commercial*/
+ .bg-img.t{
+    min-height: 390px;
+    background:linear-gradient(rgba(0, 158, 255, 0.75), rgba(0, 83, 135, 0.55)), url(./images/commercialbg.png);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    position: relative;
+                            }

@@ -1,0 +1,214 @@
+*{margin:0;
+padding:0;}
+:root{
+    --pink: #e951a7;
+    --blue: #52b1ff;
+    --highlight: rgba(255, 63, 168, 0.821); 
+ }
+ .navlinks a{margin-left: 10px;}
+ .header{font-size:26px ;}
+.nav{border:2px solid black;
+height: 50px;
+display: flex;
+justify-content: space-between;
+font-family: 'Montserrat';
+font-size: 12px ;
+font-weight: bold;
+color:white;
+background-color: #01245a;
+padding:30px 19px;
+font: 700;
+            
+            }
+
+#loginbtn, #signbtn{border:1px solid white;
+padding:10px 20px;
+border-radius: 9px;
+font-weight: 700;
+}
+#signbtn{background:var(--pink);}
+#loginbtn:hover{background-color: rgba(255, 255, 255, 0.093);}
+#signbtn:hover{background-color: #e951a7e9;}
+#signbtn{border:none;}
+.nav a{text-decoration: none;
+color:white;}
+.section2{
+    background: url(./images/jumbotron-background.jpg);
+    background-size:cover;
+    background-position: center;
+    margin-bottom: 0;
+    height: 400px;
+    display: flex;
+    
+}
+.section2h{margin:auto;
+font-family: sans-serif;
+}
+.discount{height: 50px;
+    color: white;
+background:var(--pink);
+padding: 20px ;
+display:flex;}
+.discountp{margin:auto;
+}
+.discountp span{ color:var(--pink);
+border:0px solid black;
+padding:15px 9px;
+margin-right:8px;
+border-radius:9px;
+
+background-color: white;
+}
+.fas{font-size:50px;
+border:solid black 5px;
+padding:30px ;
+color:var(--pink);
+border-radius:50%;
+}
+
+
+.section3{display: grid;
+    line-height: 2;
+    font-family: 'Montserrat';
+    padding-top:20px;
+    background-color: var(--blue);
+    
+
+}
+.section3-items{display: grid;
+    margin: auto;
+    background-color: white;
+    padding:10px 30px 20px 30px;
+    border:0px solid black;
+    border-radius: 9px;
+    line-height: 3.5;
+    margin-top: 10px;
+    justify-content: center;
+grid-template-columns: auto auto auto ;
+gap:20px;}
+#three{
+    margin-top: 75px ;
+    line-height: 1.2;
+
+}
+.twop,#three{color:grey;}
+.threebtn{color:white;
+background: var(--pink);
+
+border-radius: 19px;
+padding:10px 17px;}
+.section3-items{width: 850px;
+}
+
+
+.flexprice .twop{display: inline-block;}
+.threep{display: inline;
+    padding: 9px 9px;
+    height: 20px;
+    border-radius: 30px;
+    color: white;
+    background-color: var(--pink);
+    font-weight:700;
+    margin-left: 10px;
+    cursor: pointer;
+
+ 
+    
+border:solid 0px black;
+}
+
+.twopbtn{display: inline;
+    color: grey;
+    
+    
+}
+.flexprice{line-height: 4;}
+.threep1{display: inline;
+margin-left: 295px ; color: grey;}
+.threep2{display: inline;
+    margin-left: 310px ;
+    color: grey;}
+    .threep3{display: inline;
+        margin-left: 370px ;
+        color: grey;}
+        .threep4{display: inline;
+            margin-left: 310px ;
+            color: grey;}
+
+            .section3 a{text-decoration: none;
+            color: rgba(0, 128, 255, 0.478);}
+            /* two para means two paragraph */
+            .twopara{display: inline;
+            color: grey;}
+.twodivf{display: flex;
+}
+.spanpara1{margin-left: 300px;}
+.spanpara2{margin-left: 300px;}
+.spanpara3{margin-left: 25px;
+}
+.spanpara11{margin-left: 300px;}
+.spanpara22{margin-left: 200px;
+
+  }
+  .spanpara33{margin-left: 310px;
+
+  }
+  .spanpara44{margin-left: 310px;
+
+  }
+  .section3{padding: 38px;}
+  /*section4 design starts here*/
+.section4{display: grid;
+grid-template-columns: 120px 690px 300px ;
+
+justify-content: center;
+
+}
+.middle{width: 690px;
+}.middlephone{font-family: 'Montserrat';}
+  .phone{width: 100px;}
+  
+.sec4apple{width: 200px;
+display: block;
+margin-bottom:9px;}
+.sec4android{width:200px;}
+.middle input{width: 300px;
+    box-shadow: 0px 2px 1px 0px rgb(128 128 128 / 36%);
+outline: none;
+border:none;
+
+padding: 20px;
+}
+.section4btn{
+border-radius:0px 50px 50px 0px ;
+border:0px solid black;
+color:white;
+padding:20px 60px;
+background:var(--pink);
+}
+.middlephone{text-align: center;}
+.midddleinput{margin-top:10px ;
+
+text-align: center;}
+.section4{height: 200px ;
+padding-top: 40px ;
+background-color: whitesmoke;}
+
+
+
+.footer{display: flex;
+background:#01245a;
+color: white;
+justify-content: center;
+font-family:'Montserrat';
+gap:140px;}
+.second a{display: block;
+text-decoration: none;
+color: white;
+}
+.giftcard{border:0px solid black;
+padding:10px;
+border-radius:30px;
+text-align:center;
+font-family: 'Montserrat';
+background:var(--pink);}
